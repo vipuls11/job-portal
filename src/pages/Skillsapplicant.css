@@ -1,0 +1,38 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0;
+  border-bottom: 1px solid #d0d5dd;
+  border-top: 1px solid #d0d5dd;
+}
+
+.list_ui {
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ui {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #d0d5dd;
+  width: fit-content;
+  padding: 4px 6px;
+  border-radius: 8px;
+}
+
+.para {
+  color: #6e6d6d;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.paraheading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3d3d3d;
+}

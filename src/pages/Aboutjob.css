@@ -1,0 +1,20 @@
+.About_job {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.work_flow {
+  padding-inline-start: 14px;
+}
+
+.work_flow_ul {
+  padding-inline-start: 28px;
+}
+
+.About_para {
+  font-size: 14px;
+  font-style: 500;
+  color: #6e6d6d;
+}

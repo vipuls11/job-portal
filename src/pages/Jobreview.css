@@ -1,13 +1,17 @@
 .jobreview {
   display: flex;
-  width: 93%;
-  margin: auto;
+  /* width: 93%;
+  margin: auto; */
+  /* padding: 20px 0; */
 }
 
 .job_profile {
   width: 75%;
+  border-right: 1px solid #d0d5dd;
+  padding: 20px 40px;
 }
 
 .number_apllicant {
   width: 25%;
+  padding: 20px 20px;
 }

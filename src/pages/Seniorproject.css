@@ -1,9 +1,60 @@
+.Senior {
+  padding-bottom: 20px;
+}
 .senior_develop {
   display: flex;
   align-items: center;
   gap: 30px;
 }
+.senior_develop h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 47.25px;
+  text-align: left;
+}
 
 .develop_details {
+  margin-top: 24px;
   display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.post_day {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+  text-align: left;
+  color: #888888;
+}
+
+.open_dot {
+  border: 1px solid #abefc6;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #067647;
+  background-color: #ecfdf3;
+  padding: 2px 14px;
+  border-radius: 50px;
+}
+
+.dots {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  background-color: #067647;
+}
+
+.develop_item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #5d5d5d;
 }

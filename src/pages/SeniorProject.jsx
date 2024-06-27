@@ -1,16 +1,18 @@
 import React from 'react'
 import './Seniorproject.css'
+import { CiLocationOn } from "react-icons/ci";
+import { FaCoins } from "react-icons/fa";
 
 const SeniorProject = () => {
-    return (<div>
+    return (<div className='Senior'>
         <div className='senior_develop' >
             <h1>Senior Product Designer</h1>
-            <ul> <li className='post_day'><span></span>posted 2 days ago</li></ul>
-            <div><span className='open_dot'></span> Open</div>
+            <ul> <li className='post_day'>sposted 2 days ago</li></ul>
+            <div className='open_dot'><span className='dots'></span> Open</div>
         </div>
         <div className="develop_details">
-            <div><p><span>icon location</span> Dalaware, USA</p></div>
-            <div><p><span>dollar</span> $200-$400k</p></div>
+            <p className='develop_item'><span><CiLocationOn /></span> Dalaware, USA</p>
+            <ul><li className='develop_item'><span><FaCoins /></span> $200-$400k</li></ul>
         </div>
     </div>
     )
