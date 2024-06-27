@@ -15,3 +15,17 @@
   width: 25%;
   padding: 20px 20px;
 }
+
+@media (min-width: 360px) and (max-width: 900px) {
+  .jobreview {
+    display: block;
+  }
+
+  .job_profile {
+    width: 100%;
+  }
+
+  .number_apllicant {
+    width: 100%;
+  }
+}
