@@ -1,0 +1,42 @@
+.routes {
+  display: flex;
+  gap: 20px;
+  padding: 0px 50px;
+  border-bottom: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+}
+.link.active .livejob {
+  width: 65px;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  left: 12px;
+  background-color: #dc4a2d;
+}
+
+.link.active .livejobmatch {
+  width: 45px;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  left: 6px;
+  background-color: #dc4a2d;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  padding: 15px 0px;
+  font-size: 20px;
+  text-align: center;
+  color: #888888;
+}
+
+.link.active {
+  /* Styles for active link */
+  color: #dc4a2d;
+  background-color: transparent;
+
+  /* Example: change color and font weight for active link */
+}

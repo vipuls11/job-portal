@@ -1,0 +1,13 @@
+.jobreview {
+  display: flex;
+  width: 93%;
+  margin: auto;
+}
+
+.job_profile {
+  width: 75%;
+}
+
+.number_apllicant {
+  width: 25%;
+}

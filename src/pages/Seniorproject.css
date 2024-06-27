@@ -1,0 +1,9 @@
+.senior_develop {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.develop_details {
+  display: flex;
+}

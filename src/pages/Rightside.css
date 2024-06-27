@@ -1,0 +1,51 @@
+.rightside {
+  padding: 10px;
+}
+.Button_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Applicant_data {
+  padding: 15px;
+}
+
+.Aplicant_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.Btn_delete {
+  /* display: flex;
+  align-items: center; */
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #dc4a2d;
+  background-color: #fef4f2;
+  border: 1px solid #fae3df;
+}
+
+.Btn_edit {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
+  background-color: #dc4a2d;
+  border: 1px solid #dc4a2d;
+}
+
+.last-item {
+  border-bottom: none; /* Remove the bottom border for the last item */
+}
+
+.applicant_form_num {
+  font-size: 20px;
+  font-weight: 600;
+}
