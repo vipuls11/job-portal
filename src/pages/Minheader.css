@@ -16,6 +16,7 @@
 .button-container {
   border-radius: 36px;
   font-weight: 600;
+  border: 1px solid #d1d1d1;
 }
 
 .btn {
